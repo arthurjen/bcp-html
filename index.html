@@ -4,6 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        h1 {
+            color: red;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-family: Georgia;
+        }
+
+        li {
+            border: 3px solid blue;
+            
+        }
+
+        p {
+            color: blue;
+            font-size: 2em;
+            margin-left: 20px;
+        }
+
+        .content {
+            color: green;
+        }
+
+        article, .content {
+            border: 1px dashed purple;
+        }
+
+        div {
+            background-color: lightgray;
+        }
+
+        img {
+            margin: 20px;
+            border: 10px ridge brown;
+            padding: 10px;
+            background-color: black;
+
+        }
+
+        body {
+            width: 70%;
+        }
+
+        a {
+            background-color: black;
+            font-size: 1.5em;
+        }
+
+        #cat-list {
+            background-color: pink;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -19,11 +75,13 @@
     <main>
         <h2 class="category">Notes</h2>
         <article>
+            floating text
             <p class="content">You type open filename</p>
             <p class="content"><strong>open -a "Google Chrome" &lt;filename&gt;</strong></p>
             <p class="content">Open dev tools in chrome by pressing command option i</p>
+            <p>Here's a paragraph of words: then put a pragraph anywhere else that has a class of content. This is inside the article.</p>
         </article>
-        
+        <p class="content">Here's some stuff that's not inside the article, but it has a class of content.</p>
         <hr>
 
         <h2 class="category">List of Cats</h2>
@@ -33,11 +91,12 @@
             <li>Felix</li>
         </ul>
         <hr>
+        <div>
         <h2 class="category">Corgi Photos</h2>
         <img id="corgi-1" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/WelshCorgi.jpeg" width="500" alt="cute welsh corgi">
-        <img src="https://c1.staticflickr.com/9/8370/8526274448_de5a7c894e_b.jpg" width="500" alt="cute corgi">
 
-        
+        </div>
+        <img src="https://c1.staticflickr.com/9/8370/8526274448_de5a7c894e_b.jpg" width="500" alt="cute corgi">
     </main>
 
     <footer>
